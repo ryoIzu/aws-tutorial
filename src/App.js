@@ -12,7 +12,7 @@ function App({signOut, user}) {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <h2>HEllo AWS</h2>
+        <h2>HEllO AWS</h2>
         {user ? (
           <>
             <h3>私は権限を持っています: {user.username}</h3>
